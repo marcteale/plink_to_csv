@@ -24,4 +24,3 @@ fi
 sed -i 1i\\"$header" $outfile
 perl -p -i -e 's/^\s+//' $outfile
 perl -p -i -e 's/ +/,/g' $outfile
-perl -p -i -e 's/\n/,\n/g' $outfile
